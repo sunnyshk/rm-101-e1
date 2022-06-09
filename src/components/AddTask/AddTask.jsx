@@ -8,6 +8,7 @@ const AddTask = ({ data, addTodo, len }) => {
 
   const handleAdd = (e) => {
     setInput(e.target.value);
+    // console.log(input)
   };
   return (
     <div className={styles.todoForm}>
